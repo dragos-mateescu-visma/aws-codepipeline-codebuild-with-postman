@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "83e98cfc-83a9-46f8-916d-21d1a2b4e062",
+		"_postman_id": "c68c6a94-3603-49f3-8b2b-5763a897c003",
 		"name": "PetStoreAPI",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,7 +11,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "97be1e6a-eb05-414a-930d-bd85cb3eb568",
 						"exec": [
 							"/**",
 							" * ",
@@ -69,7 +68,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "2987e653-1c08-4f37-a960-105116dc4df6",
 						"exec": [
 							"/**",
 							" *  ",
@@ -138,7 +136,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "9bce0715-8ea7-4685-84e1-78adb75cfd74",
 						"exec": [
 							"/**",
 							" * ",
