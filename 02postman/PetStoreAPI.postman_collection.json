@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c68c6a94-3603-49f3-8b2b-5763a897c003",
+		"_postman_id": "15968a89-3d6e-4c51-8409-f946ef9a0e7a",
 		"name": "PetStoreAPI",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -32,6 +32,10 @@
 							"",
 							"pm.test(\"Has Content-Type header\", function () {",
 							"    pm.expect(responseHeaders.hasOwnProperty(\"Content-Type\"));",
+							"});",
+							"",
+							"pm.test(\"Is response time is less than 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
 							"});",
 							"",
 							"pm.test(\"Is response time is less than 800ms\", function () {",
@@ -188,6 +192,26 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
